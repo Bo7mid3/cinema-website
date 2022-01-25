@@ -1,0 +1,110 @@
+:root {
+    --c1:#FECD45;
+    --c2:#2568FB;
+    background: var(--c1);
+}
+.navbar {
+    background-color: var(--c1);
+    min-height: 100px;
+}
+.buttons{
+    position:absolute;
+    right:3%;
+    top:30%;
+}
+.buttons0{
+    position:absolute;
+    left:3%;
+    top:30%;
+}
+.buttons1{
+    position:absolute;
+    left:44.5%;
+    top:17%;
+}
+.minilogo{
+    width:30px;
+}
+.nothing{
+    height:5px;
+    background-color: var(--c2);
+}
+.nav-link{
+    font-size: 18px;
+}   
+h3{
+    font-weight: 500;
+    size:24px;
+    color: var(--c2);
+}
+.card{
+    color:var(--c2);
+    border-color:var(--c2);
+}
+.hero{
+    background:url(/img/cinema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30vw;
+}
+.container{
+    border:2px solid var(--c1);
+    border-radius: 1%;
+    padding:5%;
+}
+
+.container-1{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.container-2{
+    margin-bottom:40px;
+}
+.card2{
+    width:60%;
+    display:inline-block;
+}
+.card3{
+    width:30%;
+    display:inline-block;
+}
+.flexy{
+    align-items: center;
+    justify-content: space-around;
+}
+.couleur{
+    color:var(--c2) !important;
+}
+.couleur:hover{
+    color:black !important;
+}
+#erreurnom{
+    display:none;
+    color:red;
+}
+#erreurpass{
+    display:none;
+    color:red;
+}
+#erreurmail{
+    display:none;
+    color:red;
+}
+#erreurnamecard{
+    display:none;
+    color:red;
+}
+#erreurdate{
+    display:none;
+    color:red;
+}
+#erreursecure{
+    display:none;
+    color:red;
+}
+#erreurcredit{
+    display:none;
+    color:red;
+}
+
+
